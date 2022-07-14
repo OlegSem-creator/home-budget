@@ -1,0 +1,22 @@
+.header {
+  flex: 0 0 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(76, 105, 193);
+}
+.headerWrapper {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.headerLogo {
+  font-size: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+  @media (max-width: 395px) {
+    font-size: 18px;
+  }
+}

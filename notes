@@ -1,0 +1,7 @@
+import { FC } from "react";
+
+const LoginFormLink: FC = () => {
+  return <div></div>;
+};
+
+export default LoginFormLink;
